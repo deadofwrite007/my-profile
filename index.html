@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vrishank | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">Vrishank</h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Vrishank</span></h1>
+            <p>Student at Chitkara University | Web Developer</p>
+        </div>
+
+        <div class="hero-img">
+            <!-- Online hosted image -->
+            <img src="https://i.ibb.co/XrK4tZK3/Uniform-photo.jpg" alt="Vrishank Photo">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm <b>Vrishank</b>, a student at <b>Chitkara University</b> passionate about web development, 
+            design, and creating clean and simple websites.  
+            This is a basic portfolio made using HTML, CSS, and JavaScript.
+        </p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>A simple description of your project goes here.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>Another sample project you can showcase.</p>
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="formStatus"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Vrishank — Chitkara University</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
